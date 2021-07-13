@@ -1,1 +1,3 @@
-docker run -it putt_tracker:test python3 /bin/putt_tracker.py
+docker build -t putt_tracker:test .
+
+docker run -it putt_tracker:test python3 /tmp/putt_tracker.py
